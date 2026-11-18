@@ -203,6 +203,20 @@ Base URL: `http://localhost:5000/api`
       </a><br>
       <sub>Contributor</sub>
     </td>
+    <td align="center">
+      <a href="https://github.com/Samik89-alt">
+        <img src="https://github.com/Samik89-alt.png?size=100" width="100" alt="Samik89-alt"><br>
+        <b>Samik89-alt</b>
+      </a><br>
+      <sub>Contributor</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rkhator25">
+        <img src="https://github.com/rkhator25.png?size=100" width="100" alt="rkhator25"><br>
+        <b>rkhator25</b>
+      </a><br>
+      <sub>Contributor</sub>
+    </td>
   </tr>
 </table>
 
