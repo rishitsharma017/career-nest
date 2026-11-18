@@ -1,6 +1,6 @@
 <div align="center">
 
-# CareerNest
+# 🪺 CareerNest
 
 **A full-stack job discovery and application-tracking platform with smart job-match scoring.**
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Overview
+## 📖 Overview
 
 CareerNest helps candidates **find jobs, see how well they fit each role, and track every application** in one place.
 The React frontend talks to an Express REST API backed by a SQLite database. A matching engine scores each job against the candidate's profile and explains the score.
@@ -25,7 +25,7 @@ The React frontend talks to an Express REST API backed by a SQLite database. A m
   <img src="docs/screenshots/for-you.png" alt="CareerNest personalised job recommendations with match-score breakdown" width="900">
 </p>
 
-## Screenshots
+## 📸 Screenshots
 
 <table>
   <tr>
@@ -56,7 +56,7 @@ The React frontend talks to an Express REST API backed by a SQLite database. A m
 </p>
 </details>
 
-## Features
+## ✨ Features
 
 | Feature | Description |
 | --- | --- |
@@ -68,7 +68,7 @@ The React frontend talks to an Express REST API backed by a SQLite database. A m
 | **Company profiles** | A company directory with a profile page and open roles for each company. |
 | **Candidate profile** | Education, skills, experience and preferred location, stored in SQLite. |
 
-### How match scoring works
+### 🧠 How match scoring works
 
 `src/utils/jobMatcher.js` scores every job against the profile:
 
@@ -81,14 +81,14 @@ The React frontend talks to an Express REST API backed by a SQLite database. A m
 
 Score labels: **Excellent** (80 or more) · **Strong** (65 or more) · **Good** (40 or more) · **Low** (below 40).
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend:** React 19, React Router 7, Context API, custom hooks, Axios, Vite 8
 - **Backend:** Node.js, Express 4, SQLite through `sql.js` (WebAssembly, no native build needed)
 - **Tooling:** Oxlint, GitHub Actions CI
 - **Design:** Responsive layout for desktop, tablet and mobile
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 career-nest/
@@ -109,7 +109,7 @@ career-nest/
 └── package.json
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -149,7 +149,7 @@ On first start the server creates `server/database/careernest.sqlite`, builds th
 | `npm run lint` | Lint with Oxlint |
 | `node sync-db.mjs` | Regenerate `db.json` from `src/data/jobs.js` |
 
-## API Reference
+## 🔌 API Reference
 
 Base URL: `http://localhost:5000/api`
 
@@ -172,20 +172,20 @@ Base URL: `http://localhost:5000/api`
 - **applications**: one per job per profile, with a constrained `status` and a snapshot of the applicant's details
 - **saved_jobs**: bookmarks, with foreign keys to profiles and jobs
 
-## Roadmap
+## 🗺️ Roadmap
 
 - [ ] User authentication and multiple accounts
 - [ ] Resume upload and skill extraction (PDF/DOCX)
 - [ ] Sync bookmarks with the backend `saved-jobs` API
 - [ ] Deploy the frontend and API
 
-## Notes
+## ⚠️ Notes
 
 - Companies and job listings are **sample data**, not real vacancies.
 - `db.json` is the seed file. The live database is generated at runtime and is git-ignored.
 - Keep the backend running while you use pages that load data from the API.
 
-## Contributors
+## 👥 Contributors
 
 <table>
   <tr>
@@ -207,8 +207,8 @@ Everyone who contributes code shows up here automatically:
 
 Want to contribute? Read the [contributing guide](CONTRIBUTING.md). Pull requests are welcome.
 
-## License
+## 📄 License
 
 Released under the [MIT License](LICENSE).
 
-If you find this project useful, consider giving it a star.
+⭐ If you find this project useful, consider giving it a star!
