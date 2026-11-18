@@ -324,6 +324,14 @@
 ========================= */
 
 @media (max-width: 1100px) {
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
   .home {
     padding: 35px 5%;
   }
@@ -339,17 +347,36 @@
 }
 
 @media (max-width: 700px) {
+  /* Two-row navbar: brand + profile on top, scrollable links below */
   .navbar {
-    padding: 0 4%;
+    height: auto;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 12px 4% 8px;
+  }
+
+  .brand {
+    font-size: 22px;
   }
 
   .nav-links {
-    gap: 12px;
-    font-size: 12px;
+    order: 3;
+    width: 100%;
+    gap: 22px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 4px 0;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
   }
 
   .profile-btn {
-    display: none;
+    padding: 8px 14px;
+    font-size: 14px;
   }
 
   .home {

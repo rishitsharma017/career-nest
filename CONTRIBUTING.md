@@ -6,7 +6,7 @@ Thanks for your interest in improving CareerNest. Contributions of any size are 
 
 1. **Fork** this repository and clone your fork.
 2. Install dependencies with `npm install`.
-3. Start the backend with `npm run server` and the frontend with `npm run dev`. See the [README](README.md#-getting-started) for details.
+3. Start the backend with `npm run server` and the frontend with `npm run dev`. See the [README](README.md#getting-started) for details.
 4. Create a branch for your change:
    ```bash
    git checkout -b feature/short-description
@@ -47,4 +47,4 @@ Open an [issue](https://github.com/rishitsharma017/career-nest/issues) and inclu
 - What actually happened
 - Steps to reproduce it, and screenshots if relevant
 
-Once your pull request is merged, you'll appear in the README's **Contributors** section automatically. 🎉
+Once your pull request is merged, you'll appear in the README's **Contributors** section automatically.
