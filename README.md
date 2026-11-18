@@ -196,6 +196,13 @@ Base URL: `http://localhost:5000/api`
       </a><br>
       <sub>Creator & Maintainer · Full-stack</sub>
     </td>
+    <td align="center">
+      <a href="https://github.com/LameBiNatick">
+        <img src="https://github.com/LameBiNatick.png?size=100" width="100" alt="LameBiNatick"><br>
+        <b>LameBiNatick</b>
+      </a><br>
+      <sub>Contributor</sub>
+    </td>
   </tr>
 </table>
 
