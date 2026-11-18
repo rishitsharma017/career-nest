@@ -194,7 +194,7 @@ Base URL: `http://localhost:5000/api`
         <img src="https://github.com/rishitsharma017.png?size=100" width="100" alt="Rishit Sharma"><br>
         <b>Rishit Sharma</b>
       </a><br>
-      <sub>Creator & Maintainer · Full-stack</sub>
+      <sub>Maintainer</sub>
     </td>
     <td align="center">
       <a href="https://github.com/LameBiNatick">
