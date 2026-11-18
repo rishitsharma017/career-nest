@@ -21,6 +21,31 @@
 CareerNest helps candidates **find jobs, see how well they fit each role, and track every application** in one place.
 The React frontend talks to an Express REST API backed by a SQLite database. A matching engine scores each job against the candidate's profile and explains the score.
 
+<p align="center">
+  <img src="docs/screenshots/for-you.png" alt="CareerNest personalised job recommendations with match-score breakdown" width="900">
+</p>
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Find Jobs</b><br><img src="docs/screenshots/home.png" alt="Job search with filters" width="440"></td>
+    <td align="center"><b>Dashboard</b><br><img src="docs/screenshots/dashboard.png" alt="Dashboard with application stats" width="440"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Application Tracking</b><br><img src="docs/screenshots/applications.png" alt="Application history with status updates" width="440"></td>
+    <td align="center"><b>Job Details</b><br><img src="docs/screenshots/job-details.png" alt="Job details and apply panel" width="440"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Companies</b><br><img src="docs/screenshots/companies.png" alt="Company directory" width="440"></td>
+    <td align="center"><b>Company Profile</b><br><img src="docs/screenshots/company-profile.png" alt="Company profile with open roles" width="440"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Saved Jobs</b><br><img src="docs/screenshots/saved-jobs.png" alt="Bookmarked jobs" width="440"></td>
+    <td align="center"><b>Candidate Profile</b><br><img src="docs/screenshots/profile.png" alt="Candidate profile form" width="440"></td>
+  </tr>
+</table>
+
 ## ✨ Features
 
 | Feature | Description |
@@ -149,12 +174,30 @@ Base URL: `http://localhost:5000/api`
 - `db.json` is the seed file. The live database is generated at runtime and is git-ignored.
 - Keep the backend running while you use pages that load data from the API.
 
+## 👥 Contributors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/rishitsharma017">
+        <img src="https://github.com/rishitsharma017.png?size=100" width="100" alt="Rishit Sharma"><br>
+        <b>Rishit Sharma</b>
+      </a><br>
+      <sub>Creator & Maintainer · Full-stack</sub>
+    </td>
+  </tr>
+</table>
+
+Everyone who contributes code shows up here automatically:
+
+<a href="https://github.com/rishitsharma017/career-nest/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rishitsharma017/career-nest" alt="Contributors">
+</a>
+
+Want to contribute? Read the [contributing guide](CONTRIBUTING.md). Pull requests are welcome.
+
 ## 📄 License
 
 Released under the [MIT License](LICENSE).
-
-## 👤 Author
-
-**Rishit Sharma**: [@rishitsharma017](https://github.com/rishitsharma017)
 
 ⭐ If you find this project useful, consider giving it a star!
